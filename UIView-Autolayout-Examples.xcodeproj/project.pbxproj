@@ -21,6 +21,8 @@
 		FFAE563417A0A961007E3718 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFAE561517A0A961007E3718 /* Foundation.framework */; };
 		FFAE563C17A0A961007E3718 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FFAE563A17A0A961007E3718 /* InfoPlist.strings */; };
 		FFAE563F17A0A961007E3718 /* UIView_Autolayout_ExamplesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAE563E17A0A961007E3718 /* UIView_Autolayout_ExamplesTests.m */; };
+		FFAE564C17A0A9E2007E3718 /* RTMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAE564B17A0A9E2007E3718 /* RTMainViewController.m */; };
+		FFFC413C17A4FDBC00985627 /* UIView+Autolayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFC413B17A4FDBC00985627 /* UIView+Autolayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		FFAE563B17A0A961007E3718 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FFAE563D17A0A961007E3718 /* UIView_Autolayout_ExamplesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIView_Autolayout_ExamplesTests.h; sourceTree = "<group>"; };
 		FFAE563E17A0A961007E3718 /* UIView_Autolayout_ExamplesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIView_Autolayout_ExamplesTests.m; sourceTree = "<group>"; };
+		FFAE564A17A0A9E2007E3718 /* RTMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTMainViewController.h; sourceTree = "<group>"; };
+		FFAE564B17A0A9E2007E3718 /* RTMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTMainViewController.m; sourceTree = "<group>"; };
+		FFFC413A17A4FDBC00985627 /* UIView+Autolayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Autolayout.h"; sourceTree = "<group>"; };
+		FFFC413B17A4FDBC00985627 /* UIView+Autolayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Autolayout.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,8 @@
 		FFAE561917A0A961007E3718 /* UIView-Autolayout-Examples */ = {
 			isa = PBXGroup;
 			children = (
+				FFFC413917A4FDBC00985627 /* UIView + Autolayout */,
+				FFAE564817A0A9C3007E3718 /* Test Screen */,
 				FFAE562217A0A961007E3718 /* RTAppDelegate.h */,
 				FFAE562317A0A961007E3718 /* RTAppDelegate.m */,
 				FFAE561A17A0A961007E3718 /* Supporting Files */,
@@ -150,6 +158,24 @@
 				FFAE563A17A0A961007E3718 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFAE564817A0A9C3007E3718 /* Test Screen */ = {
+			isa = PBXGroup;
+			children = (
+				FFAE564A17A0A9E2007E3718 /* RTMainViewController.h */,
+				FFAE564B17A0A9E2007E3718 /* RTMainViewController.m */,
+			);
+			name = "Test Screen";
+			sourceTree = "<group>";
+		};
+		FFFC413917A4FDBC00985627 /* UIView + Autolayout */ = {
+			isa = PBXGroup;
+			children = (
+				FFFC413A17A4FDBC00985627 /* UIView+Autolayout.h */,
+				FFFC413B17A4FDBC00985627 /* UIView+Autolayout.m */,
+			);
+			path = "UIView + Autolayout";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +290,8 @@
 			files = (
 				FFAE562017A0A961007E3718 /* main.m in Sources */,
 				FFAE562417A0A961007E3718 /* RTAppDelegate.m in Sources */,
+				FFAE564C17A0A9E2007E3718 /* RTMainViewController.m in Sources */,
+				FFFC413C17A4FDBC00985627 /* UIView+Autolayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +466,7 @@
 				FFAE564417A0A961007E3718 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FFAE564517A0A961007E3718 /* Build configuration list for PBXNativeTarget "UIView-Autolayout-ExamplesTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +475,7 @@
 				FFAE564717A0A961007E3718 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
