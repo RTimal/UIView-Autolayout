@@ -1,14 +1,12 @@
 #Layout constraints are in the format:
 
-##view1.attribute1 = view2.attribute2 * multiplier + constant
-or 
-y = mx + b
+###view1.attribute1 = view2.attribute2 * multiplier + constant
+or  return
+###y = mx + b
 
-##This category emulates that structure
+###This category emulates that structure
 
-Example User:
-
-self.view.backgroundColor = [UIColor greenColor];
+Example Use:
 
 	UIView* view1 = [[UIView alloc] initWithFrame:CGRectMake(0.f, 0.f, 300.f, 300.f)];
 	view1.backgroundColor = [UIColor redColor];
