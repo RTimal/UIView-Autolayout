@@ -33,8 +33,23 @@
 	NSLayoutConstraint *constraint = [NSLayoutConstraint constraintWithItem:self attribute:attribute1 relatedBy:relation toItem:view2 attribute:attribute2 multiplier:multiplier constant:constant];
 	self.translatesAutoresizingMaskIntoConstraints = NO;
 	[leastCommonAncestor addConstraint:constraint];
-
+	
 	return constraint;
 }
 
+//Size Constraints
+
+- (NSMutableArray *)constrainToSize:(CGSize)size
+{
+	NSMutableArray *constraintArray = [[NSMutableArray alloc] init];
+	NSLayoutConstraint *widthConstraint = [self constrainWithAttribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual view2:nil attribute:NSLayoutAttributeWidth multipliedBy:0.f plus:size.width addedToView:self.superview];
+	
+	NSLayoutConstraint *heightConstraint = [self constrainWithAttribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual view2:nil attribute:NSLayoutAttributeHeight multipliedBy:0.f plus:size.height addedToView:self.superview];
+	
+	[constraintArray addObject:widthConstraint];
+	[constraintArray addObject:heightConstraint];
+	
+	return constraintArray;
+	
+}
 @end
