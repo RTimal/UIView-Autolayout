@@ -9,9 +9,12 @@ or
 Example Use:
 
 	self.view.backgroundColor = [UIColor greenColor];
-	UIView* view1 = [[UIView alloc] initWithFrame:CGRectMake(0.f, 0.f, 300.f, 300.f)];
+	//Frames become irrelevant
+	UIView* view1 = [[UIView alloc] initWithFrame:CGRectZero];
 	view1.backgroundColor = [UIColor redColor];
-
+	
+	
+	//Frames become irrelevant
 	UIView* view2 = [[UIView alloc] initWithFrame:CGRectZero];
 	view2.backgroundColor = [UIColor blueColor];
 	[self.view addSubview:view1];
@@ -20,6 +23,7 @@ Example Use:
 	
 	view2.layer.cornerRadius = 10.f;
 	
+	//You must add a width and height , as well as a position constraint. The category sets translatesAutoResizingMask = NO and adds the constraint to the specified ancestor view.
 	
 	[view1 constrainWithAttribute:NSLayoutAttributeLeft
 						relatedBy:NSLayoutRelationEqual
@@ -70,4 +74,3 @@ Example Use:
 						relatedBy:NSLayoutRelationEqual
 							view2:view1 attribute:NSLayoutAttributeCenterY
 					 multipliedBy:1.f plus:0.f addedToView:self.view];
-	
