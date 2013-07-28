@@ -17,7 +17,7 @@
 		FFAE562817A0A961007E3718 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FFAE562717A0A961007E3718 /* Default@2x.png */; };
 		FFAE562A17A0A961007E3718 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FFAE562917A0A961007E3718 /* Default-568h@2x.png */; };
 		FFAE564C17A0A9E2007E3718 /* RTMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAE564B17A0A9E2007E3718 /* RTMainViewController.m */; };
-		FFFC414017A5013400985627 /* UIView+Autolayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFC413F17A5013400985627 /* UIView+Autolayout.m */; };
+		FFB6B8EF17A50F4A0043E141 /* UIView+Autolayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB6B8EE17A50F4A0043E141 /* UIView+Autolayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,8 +41,8 @@
 		FFAE563E17A0A961007E3718 /* UIView_Autolayout_ExamplesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIView_Autolayout_ExamplesTests.m; sourceTree = "<group>"; };
 		FFAE564A17A0A9E2007E3718 /* RTMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTMainViewController.h; sourceTree = "<group>"; };
 		FFAE564B17A0A9E2007E3718 /* RTMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTMainViewController.m; sourceTree = "<group>"; };
-		FFFC413E17A5013400985627 /* UIView+Autolayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Autolayout.h"; sourceTree = "<group>"; };
-		FFFC413F17A5013400985627 /* UIView+Autolayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Autolayout.m"; sourceTree = "<group>"; };
+		FFB6B8ED17A50F4A0043E141 /* UIView+Autolayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Autolayout.h"; sourceTree = "<group>"; };
+		FFB6B8EE17A50F4A0043E141 /* UIView+Autolayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Autolayout.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +91,7 @@
 		FFAE561917A0A961007E3718 /* UIView-Autolayout-Examples */ = {
 			isa = PBXGroup;
 			children = (
-				FFFC413D17A5013400985627 /* UIView + Autolayout */,
+				FFB6B8EC17A50F4A0043E141 /* UIView + Autolayout 4.35.02 AM */,
 				FFAE564817A0A9C3007E3718 /* Test Screen */,
 				FFAE562217A0A961007E3718 /* RTAppDelegate.h */,
 				FFAE562317A0A961007E3718 /* RTAppDelegate.m */,
@@ -142,13 +142,13 @@
 			name = "Test Screen";
 			sourceTree = "<group>";
 		};
-		FFFC413D17A5013400985627 /* UIView + Autolayout */ = {
+		FFB6B8EC17A50F4A0043E141 /* UIView + Autolayout 4.35.02 AM */ = {
 			isa = PBXGroup;
 			children = (
-				FFFC413E17A5013400985627 /* UIView+Autolayout.h */,
-				FFFC413F17A5013400985627 /* UIView+Autolayout.m */,
+				FFB6B8ED17A50F4A0043E141 /* UIView+Autolayout.h */,
+				FFB6B8EE17A50F4A0043E141 /* UIView+Autolayout.m */,
 			);
-			path = "UIView + Autolayout";
+			path = "UIView + Autolayout 4.35.02 AM";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,9 +218,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFAE562017A0A961007E3718 /* main.m in Sources */,
+				FFB6B8EF17A50F4A0043E141 /* UIView+Autolayout.m in Sources */,
 				FFAE562417A0A961007E3718 /* RTAppDelegate.m in Sources */,
 				FFAE564C17A0A9E2007E3718 /* RTMainViewController.m in Sources */,
-				FFFC414017A5013400985627 /* UIView+Autolayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

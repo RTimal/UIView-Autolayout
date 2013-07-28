@@ -27,6 +27,33 @@
 
 @interface UIView (Autolayout)
 
+
+
+/**
+ *Constrains a view's attribute to another view's attribute, using the format view1.attribute1 = view2.attribute2  * multiplier + constant
+ *
+ *@param (NSlayoutAttribute)attribute1 Attribute of receiving view that is being constrained
+ *@param (NSLayoutRelation)Relation relation such as NSLayoutRelationEqual
+ *@param (UIView*)view2 View which has attribute that the receiving view's attribute is being constrained to
+ *@param (float)Multiplier multiplier applied to attribute2
+ *@param (float)Constant constant added to attribute2
+ *@return NSLayoutConstraint*
+ *
+ */
 - (NSLayoutConstraint *)constrainWithAttribute:(NSLayoutAttribute)attribute1 relatedBy:(NSLayoutRelation)relation view2:(UIView *)view2 attribute:(NSLayoutAttribute)attribute2 multipliedBy:(float)multiplier plus:(float)constant addedToView:(UIView*)leastCommonAncestor;
+
+/**
+ *
+ * Constraints a view to a particular size
+ * @param (CGSize)size CGSize struct that contains a target width and height for the current view
+ * @return NSMutableArray* - array of constraints that were added to the superview
+ *
+ */
+ 
+- (NSMutableArray *)constrainToSize:(CGSize)size;
+
+
+
+
 
 @end
