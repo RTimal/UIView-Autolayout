@@ -7,6 +7,8 @@ or
 
 ###This category emulates that structure
 
+Works in iOS 7
+
 Example Use:
 
 	self.view.backgroundColor = [UIColor greenColor];
