@@ -16,24 +16,9 @@
 		FFAE562617A0A961007E3718 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FFAE562517A0A961007E3718 /* Default.png */; };
 		FFAE562817A0A961007E3718 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FFAE562717A0A961007E3718 /* Default@2x.png */; };
 		FFAE562A17A0A961007E3718 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FFAE562917A0A961007E3718 /* Default-568h@2x.png */; };
-		FFAE563217A0A961007E3718 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFAE563117A0A961007E3718 /* SenTestingKit.framework */; };
-		FFAE563317A0A961007E3718 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFAE561317A0A961007E3718 /* UIKit.framework */; };
-		FFAE563417A0A961007E3718 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFAE561517A0A961007E3718 /* Foundation.framework */; };
-		FFAE563C17A0A961007E3718 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FFAE563A17A0A961007E3718 /* InfoPlist.strings */; };
-		FFAE563F17A0A961007E3718 /* UIView_Autolayout_ExamplesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAE563E17A0A961007E3718 /* UIView_Autolayout_ExamplesTests.m */; };
 		FFAE564C17A0A9E2007E3718 /* RTMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAE564B17A0A9E2007E3718 /* RTMainViewController.m */; };
-		FFFC413C17A4FDBC00985627 /* UIView+Autolayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFC413B17A4FDBC00985627 /* UIView+Autolayout.m */; };
+		FFFC414017A5013400985627 /* UIView+Autolayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFC413F17A5013400985627 /* UIView+Autolayout.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		FFAE563517A0A961007E3718 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FFAE560817A0A961007E3718 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FFAE560F17A0A961007E3718;
-			remoteInfo = "UIView-Autolayout-Examples";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		FFAE561017A0A961007E3718 /* UIView-Autolayout-Examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIView-Autolayout-Examples.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,7 +34,6 @@
 		FFAE562517A0A961007E3718 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		FFAE562717A0A961007E3718 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		FFAE562917A0A961007E3718 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		FFAE563017A0A961007E3718 /* UIView-Autolayout-ExamplesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIView-Autolayout-ExamplesTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFAE563117A0A961007E3718 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		FFAE563917A0A961007E3718 /* UIView-Autolayout-ExamplesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIView-Autolayout-ExamplesTests-Info.plist"; sourceTree = "<group>"; };
 		FFAE563B17A0A961007E3718 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -57,8 +41,8 @@
 		FFAE563E17A0A961007E3718 /* UIView_Autolayout_ExamplesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIView_Autolayout_ExamplesTests.m; sourceTree = "<group>"; };
 		FFAE564A17A0A9E2007E3718 /* RTMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTMainViewController.h; sourceTree = "<group>"; };
 		FFAE564B17A0A9E2007E3718 /* RTMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTMainViewController.m; sourceTree = "<group>"; };
-		FFFC413A17A4FDBC00985627 /* UIView+Autolayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Autolayout.h"; sourceTree = "<group>"; };
-		FFFC413B17A4FDBC00985627 /* UIView+Autolayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Autolayout.m"; sourceTree = "<group>"; };
+		FFFC413E17A5013400985627 /* UIView+Autolayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Autolayout.h"; sourceTree = "<group>"; };
+		FFFC413F17A5013400985627 /* UIView+Autolayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Autolayout.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,16 +53,6 @@
 				FFAE561417A0A961007E3718 /* UIKit.framework in Frameworks */,
 				FFAE561617A0A961007E3718 /* Foundation.framework in Frameworks */,
 				FFAE561817A0A961007E3718 /* CoreGraphics.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FFAE562C17A0A961007E3718 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FFAE563217A0A961007E3718 /* SenTestingKit.framework in Frameworks */,
-				FFAE563317A0A961007E3718 /* UIKit.framework in Frameworks */,
-				FFAE563417A0A961007E3718 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,7 +73,6 @@
 			isa = PBXGroup;
 			children = (
 				FFAE561017A0A961007E3718 /* UIView-Autolayout-Examples.app */,
-				FFAE563017A0A961007E3718 /* UIView-Autolayout-ExamplesTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,7 +91,7 @@
 		FFAE561917A0A961007E3718 /* UIView-Autolayout-Examples */ = {
 			isa = PBXGroup;
 			children = (
-				FFFC413917A4FDBC00985627 /* UIView + Autolayout */,
+				FFFC413D17A5013400985627 /* UIView + Autolayout */,
 				FFAE564817A0A9C3007E3718 /* Test Screen */,
 				FFAE562217A0A961007E3718 /* RTAppDelegate.h */,
 				FFAE562317A0A961007E3718 /* RTAppDelegate.m */,
@@ -169,11 +142,11 @@
 			name = "Test Screen";
 			sourceTree = "<group>";
 		};
-		FFFC413917A4FDBC00985627 /* UIView + Autolayout */ = {
+		FFFC413D17A5013400985627 /* UIView + Autolayout */ = {
 			isa = PBXGroup;
 			children = (
-				FFFC413A17A4FDBC00985627 /* UIView+Autolayout.h */,
-				FFFC413B17A4FDBC00985627 /* UIView+Autolayout.m */,
+				FFFC413E17A5013400985627 /* UIView+Autolayout.h */,
+				FFFC413F17A5013400985627 /* UIView+Autolayout.m */,
 			);
 			path = "UIView + Autolayout";
 			sourceTree = "<group>";
@@ -198,25 +171,6 @@
 			productReference = FFAE561017A0A961007E3718 /* UIView-Autolayout-Examples.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FFAE562F17A0A961007E3718 /* UIView-Autolayout-ExamplesTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FFAE564517A0A961007E3718 /* Build configuration list for PBXNativeTarget "UIView-Autolayout-ExamplesTests" */;
-			buildPhases = (
-				FFAE562B17A0A961007E3718 /* Sources */,
-				FFAE562C17A0A961007E3718 /* Frameworks */,
-				FFAE562D17A0A961007E3718 /* Resources */,
-				FFAE562E17A0A961007E3718 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FFAE563617A0A961007E3718 /* PBXTargetDependency */,
-			);
-			name = "UIView-Autolayout-ExamplesTests";
-			productName = "UIView-Autolayout-ExamplesTests";
-			productReference = FFAE563017A0A961007E3718 /* UIView-Autolayout-ExamplesTests.octest */;
-			productType = "com.apple.product-type.bundle";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -240,7 +194,6 @@
 			projectRoot = "";
 			targets = (
 				FFAE560F17A0A961007E3718 /* UIView-Autolayout-Examples */,
-				FFAE562F17A0A961007E3718 /* UIView-Autolayout-ExamplesTests */,
 			);
 		};
 /* End PBXProject section */
@@ -257,31 +210,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FFAE562D17A0A961007E3718 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FFAE563C17A0A961007E3718 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		FFAE562E17A0A961007E3718 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FFAE560C17A0A961007E3718 /* Sources */ = {
@@ -291,27 +220,11 @@
 				FFAE562017A0A961007E3718 /* main.m in Sources */,
 				FFAE562417A0A961007E3718 /* RTAppDelegate.m in Sources */,
 				FFAE564C17A0A9E2007E3718 /* RTMainViewController.m in Sources */,
-				FFFC413C17A4FDBC00985627 /* UIView+Autolayout.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FFAE562B17A0A961007E3718 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FFAE563F17A0A961007E3718 /* UIView_Autolayout_ExamplesTests.m in Sources */,
+				FFFC414017A5013400985627 /* UIView+Autolayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		FFAE563617A0A961007E3718 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FFAE560F17A0A961007E3718 /* UIView-Autolayout-Examples */;
-			targetProxy = FFAE563517A0A961007E3718 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		FFAE561C17A0A961007E3718 /* InfoPlist.strings */ = {
@@ -413,40 +326,6 @@
 			};
 			name = Release;
 		};
-		FFAE564617A0A961007E3718 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UIView-Autolayout-Examples.app/UIView-Autolayout-Examples";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UIView-Autolayout-Examples/UIView-Autolayout-Examples-Prefix.pch";
-				INFOPLIST_FILE = "UIView-Autolayout-ExamplesTests/UIView-Autolayout-ExamplesTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		FFAE564717A0A961007E3718 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UIView-Autolayout-Examples.app/UIView-Autolayout-Examples";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UIView-Autolayout-Examples/UIView-Autolayout-Examples-Prefix.pch";
-				INFOPLIST_FILE = "UIView-Autolayout-ExamplesTests/UIView-Autolayout-ExamplesTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -464,15 +343,6 @@
 			buildConfigurations = (
 				FFAE564317A0A961007E3718 /* Debug */,
 				FFAE564417A0A961007E3718 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FFAE564517A0A961007E3718 /* Build configuration list for PBXNativeTarget "UIView-Autolayout-ExamplesTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FFAE564617A0A961007E3718 /* Debug */,
-				FFAE564717A0A961007E3718 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
