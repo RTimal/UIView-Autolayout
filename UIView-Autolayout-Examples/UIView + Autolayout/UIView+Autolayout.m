@@ -32,6 +32,7 @@
 	NSLayoutConstraint *constraint = [NSLayoutConstraint constraintWithItem:self attribute:attribute1 relatedBy:relation toItem:view2 attribute:attribute2 multiplier:multiplier constant:constant];
 	self.translatesAutoresizingMaskIntoConstraints = NO;
 	[leastCommonAncestor addConstraint:constraint];
+
 	return constraint;
 }
 

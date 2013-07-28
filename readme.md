@@ -2,7 +2,8 @@
 
 ###view1.attribute1 = view2.attribute2 * multiplier + constant
 or  
-###y = mx + b
+###y = mx + b  
+###Where '=' can be replaced by >= or <=
 
 ###This category emulates that structure
 
