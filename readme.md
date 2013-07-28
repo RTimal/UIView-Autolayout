@@ -7,8 +7,8 @@ or
 ###This category emulates that structure
 
 Example Use:
+
 	self.view.backgroundColor = [UIColor greenColor];
-	
 	UIView* view1 = [[UIView alloc] initWithFrame:CGRectMake(0.f, 0.f, 300.f, 300.f)];
 	view1.backgroundColor = [UIColor redColor];
 
