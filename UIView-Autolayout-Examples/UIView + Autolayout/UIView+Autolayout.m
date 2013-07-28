@@ -25,6 +25,18 @@
 
 #import "UIView+Autolayout.h"
 
+
+/**
+ *Constrains a view's attribute to another view's attribute, using the format view1.attribute1 = view2.attribute2  * multiplier + constant
+ *
+ *@param attribute1 attribute of receiving view that is being constrained
+ *@param relation relation such as NSLayoutRelationEqual
+ *@param view2 view which has attribute that the receiving view's attribute is being constrained to
+ *@param multiplier multiplier applied to attribute2
+ *@param constant constant added to attribute2
+ *@return NSLayoutConstraint*
+ *
+ */
 @implementation UIView (Autolayout)
 
 - (NSLayoutConstraint *)constrainWithAttribute:(NSLayoutAttribute)attribute1 relatedBy:(NSLayoutRelation)relation view2:(UIView *)view2 attribute:(NSLayoutAttribute)attribute2 multipliedBy:(float)multiplier plus:(float)constant addedToView:(UIView *)leastCommonAncestor
