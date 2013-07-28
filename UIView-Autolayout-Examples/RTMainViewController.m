@@ -73,7 +73,7 @@
 	
 	
 	//Blue square
-	[view2 constrainToSize:CGSizeMake(200.f, 200.f)];
+	[view2 constrainToSize:CGSizeMake(100.f, 100.f)];
 	
 	[view2 constrainWithAttribute:NSLayoutAttributeCenterX
 						relatedBy:NSLayoutRelationEqual
