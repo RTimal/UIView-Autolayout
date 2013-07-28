@@ -50,7 +50,6 @@
 	[constraintArray addObject:heightConstraint];
 	
 	return constraintArray;
-	
 }
 
 //Position constraints
