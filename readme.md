@@ -1,7 +1,7 @@
 #Layout constraints are in the format:
 
 ###view1.attribute1 = view2.attribute2 * multiplier + constant
-or  return
+or  
 ###y = mx + b
 
 ###This category emulates that structure
