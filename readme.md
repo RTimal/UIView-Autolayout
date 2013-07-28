@@ -9,8 +9,6 @@ or
 
 Works in iOS 7
 
-Example Use:
-
 	self.view.backgroundColor = [UIColor greenColor];
 	//Frames become irrelevant
 	UIView* view1 = [[UIView alloc] initWithFrame:CGRectZero];
@@ -28,6 +26,8 @@ Example Use:
 	
 	//You must add a width and height , as well as a position constraint. The category sets translatesAutoResizingMask = NO and adds the constraint to the specified ancestor view.
 	
+	
+	//Red background
 	[view1 constrainWithAttribute:NSLayoutAttributeLeft
 						relatedBy:NSLayoutRelationEqual
 							view2:self.view
@@ -52,19 +52,10 @@ Example Use:
 						attribute:NSLayoutAttributeHeight
 					 multipliedBy:1.f plus:0.f addedToView:self.view];
 	
-	[view2 constrainWithAttribute:NSLayoutAttributeWidth
-						relatedBy:NSLayoutRelationEqual
-							view2:view1 attribute:NSLayoutAttributeWidth
-					 multipliedBy:0.f
-							 plus:200.f
-					  addedToView:self.view];
 	
-	[view2 constrainWithAttribute:NSLayoutAttributeHeight
-						relatedBy:NSLayoutRelationEqual
-							view2:view1 attribute:NSLayoutAttributeHeight
-					 multipliedBy:0.0f
-							 plus:200.f
-					  addedToView:self.view];
+	
+	//Blue square
+	[view2 constrainToSize:CGSizeMake(100.f, 100.f)];
 	
 	[view2 constrainWithAttribute:NSLayoutAttributeCenterX
 						relatedBy:NSLayoutRelationEqual
