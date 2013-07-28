@@ -91,7 +91,7 @@
 		FFAE561917A0A961007E3718 /* UIView-Autolayout-Examples */ = {
 			isa = PBXGroup;
 			children = (
-				FFB6B8EC17A50F4A0043E141 /* UIView + Autolayout 4.35.02 AM */,
+				FFB6B8EC17A50F4A0043E141 /* UIView + Autolayout */,
 				FFAE564817A0A9C3007E3718 /* Test Screen */,
 				FFAE562217A0A961007E3718 /* RTAppDelegate.h */,
 				FFAE562317A0A961007E3718 /* RTAppDelegate.m */,
@@ -142,12 +142,13 @@
 			name = "Test Screen";
 			sourceTree = "<group>";
 		};
-		FFB6B8EC17A50F4A0043E141 /* UIView + Autolayout 4.35.02 AM */ = {
+		FFB6B8EC17A50F4A0043E141 /* UIView + Autolayout */ = {
 			isa = PBXGroup;
 			children = (
 				FFB6B8ED17A50F4A0043E141 /* UIView+Autolayout.h */,
 				FFB6B8EE17A50F4A0043E141 /* UIView+Autolayout.m */,
 			);
+			name = "UIView + Autolayout";
 			path = "UIView + Autolayout 4.35.02 AM";
 			sourceTree = "<group>";
 		};
